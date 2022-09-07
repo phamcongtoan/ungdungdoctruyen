@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".manHinhDangKi">
+    <TextView
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#2196F3"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Đăng Kí"/>
+    <EditText
+        android:drawableRight="@drawable/ic_account"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Tài khoản"
+        android:id="@+id/dkTaiKhoan"
+        android:layout_gravity="center"/>
+    <EditText
+        android:drawableRight="@drawable/ic_pass"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu"
+        android:id="@+id/dkMatKhau"
+        android:layout_gravity="center"/>
+    <EditText
+        android:drawableRight="@drawable/ic_email"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:id="@+id/dkEmail"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đăng kí"
+            android:id="@+id/dkDangki"
+            android:layout_marginLeft="30dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quay Lại Đăng nhập"
+            android:id="@+id/dkDangNhap"
+            android:layout_marginLeft="40dp"/>
+    </LinearLayout>
+
+
+  </LinearLayout>
