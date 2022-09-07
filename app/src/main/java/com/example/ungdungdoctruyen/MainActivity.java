@@ -60,6 +60,8 @@ public class MainActivity extends AppCompatActivity {
         anhxa();
         ActionBar();
         ActionViewFlipper();
+
+        // tao su kien cho listviewnew
         listViewNew.setOnItemClickListener( new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
